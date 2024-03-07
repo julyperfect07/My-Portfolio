@@ -5,6 +5,7 @@ import './App.css'
 import { Button } from './components/ui/button'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
+import About from './components/About'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
+      <About />
     </>
   )
 }
