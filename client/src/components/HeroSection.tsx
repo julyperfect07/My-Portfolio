@@ -5,9 +5,9 @@ const HeroSection = () => {
   return (
     <div id='home' className=' max-w-6xl mx-auto my-auto p-3 flex flex-col justify-center' style={{ height: `calc(100vh - 88px)` }}>
       <div className='absolute transform -translate-y-3'>
-        <h1 className='font-bold text-5xl mb-5 leading-snug'>Full-Stack MERN <br /> Developer</h1>
-        <h1 className=' text-gray-400 mb-5'>Hi, I'm Abdallah Yousef. A passionate Full-stack <br /> Developer Based in Amman, Jordan</h1>
-        <div className=' flex gap-3 mb-5'>
+        <h1 className='font-bold text-5xl mb-5 leading-snug text-center sm:text-start'>Full-Stack MERN <br /> Developer</h1>
+        <h1 className=' text-gray-400 mb-5 text-center sm:text-start'>Hi, I'm Abdallah Yousef. A passionate Full-stack <br /> Developer Based in Amman, Jordan</h1>
+        <div className=' flex gap-3 mb-5 justify-center sm:justify-start'>
           <a href="https://www.linkedin.com/in/abdallah-yousef-3143b2288/" target="_blank">
             <Linkedin className=' h-10 w-10 text-white text-lg bg-black p-2 rounded-sm' />
           </a>
