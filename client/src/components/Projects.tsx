@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className=' max-w-5xl mx-auto mt-52'>
+    <div id='projects' className=' max-w-5xl mx-auto mt-52'>
       <h2 className=' uppercase mb-2 font-bold text-blue-600 text-lg text-center sm:text-start'>Portfolio</h2>
       <h1 className='font-bold text-2xl text-center sm:text-start'>Each project is a unique piece of development</h1>
       <div className=' flex flex-col md:flex-row gap-10 max-w-4xl mx-auto mt-24'>

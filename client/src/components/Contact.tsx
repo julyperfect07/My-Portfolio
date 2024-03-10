@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className=' max-w-5xl p-4 mx-auto mt-52'>
+    <div id='contact' className=' max-w-5xl p-4 mx-auto mt-52'>
       <div className=' flex flex-col gap-2'>
         <h2 className=' uppercase font-bold text-blue-600 text-lg text-center sm:text-start'>Contact</h2>
         <h1 className='font-bold text-2xl text-center sm:text-start'>Don't be shy! Hit me up!</h1>

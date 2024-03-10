@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className=' max-w-6xl mx-auto my-auto p-3 flex flex-col justify-center' style={{ height: `calc(100vh - 88px)` }}>
+    <div id='home' className=' max-w-6xl mx-auto my-auto p-3 flex flex-col justify-center' style={{ height: `calc(100vh - 88px)` }}>
       <div className='absolute transform -translate-y-3'>
         <h1 className='font-bold text-5xl mb-5 leading-snug'>Full-Stack MERN <br /> Developer</h1>
         <h1 className=' text-gray-400 mb-5'>Hi, I'm Abdallah Yousef. A passionate Full-stack <br /> Developer Based in Amman, Jordan</h1>
