@@ -34,7 +34,7 @@ const Projects = () => {
             Blog Website
           </h1>
           <p className=' mt-8 text-lg text-center leading-8 text-gray-500'>
-            Modern real estate hub. Upload, filter,and search seamlessly. Enjoy personalized accounts with login and sign out. Crafted with the latest full-stack tech, it's not just a website—it's your key to elegant and innovative home exploration.
+            My interactive blog platform where users can post, comment, and engage freely. You have complete control over your own content – edit or delete your posts and comments as you see fit. Admins ensure community standards are up held, managing content across the platform. Admin dashboard provides insights into user activity and content metrics, empowering you to participate meaningfully in the vibrant community. Join and be part of the conversation today!
           </p>
           <div className=' flex gap-5 font-bold text-xl mt-8'>
             <span>React</span>
