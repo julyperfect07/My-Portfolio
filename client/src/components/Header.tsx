@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { cn } from "@/lib/utils"
 import { useState } from "react"
+import { motion } from "framer-motion"
 
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
   console.log(open)
   return (
     <div className=' max-w-7xl py-6 px-3 flex justify-between items-center mx-auto'>
-      <h1 className=' font-bold text-xl'>Abdallah.dev</h1>
+      <motion.h1 className=' font-bold text-xl'>Abdallah.dev</motion.h1>
       <div className=" flex flex-col justify-center items-center gap-1 sm:hidden">
         <Menu onClick={() => isOpen(prev => !prev)} className=" hover:cursor-pointer" />
         {open && (
